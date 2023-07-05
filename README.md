@@ -25,7 +25,7 @@ Quick Start
 ### Installation
 
 ##### Install customization deployment package
-1. Download [PXLotSertialNbrAttributeExtPkg.zip](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/blob/2023/PXLotSerialNbrAttributeExtPkg.zip).
+1. Download **PXLotSertialNbrAttributeExtPkg.zip** from respective branch.
 2. In your Acumatica ERP instance, navigate to System -> Customization -> Customization Projects (SM204505), import PXLotSertialNbrAttributeExtPkg.zip as a customization project
 3. Publish customization project.
 
@@ -96,7 +96,7 @@ For customer specific additional feature; a second level of customization must b
 
 Support and Maintenance
 ------------
-Acumatica will provide upgraded package within 90 days of each major release. If you require package to be upgraded prior to this release schedule then annual customization maintenace plan is required.
+Acumatica will provide upgraded package within 90 days of each major release. If you require package to be upgraded prior to this release schedule then annual customization maintenance plan is required.
 
 Assistance with setup, training, troubleshooting issues with this customization requires annual customization maintenance plan. Contact Acumatica customization team by submitting a [New Customization Request Case](https://portal.acumatica.com/Main?ScreenId=SP203006).
 
