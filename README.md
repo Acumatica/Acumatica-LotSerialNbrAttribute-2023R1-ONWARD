@@ -87,7 +87,6 @@ You need to execute below SQL Script. We recommend you to verify solution in San
 Known Issues
 ------------
 1. Attributes having numeric control type (Integer or Decimal) are not supported as User defined fields (UDF) at present
-2. Lot/Serial screen is showing incorrect Expiration Date in header for Lot Numbers.
 
 Source Code
 ------------
