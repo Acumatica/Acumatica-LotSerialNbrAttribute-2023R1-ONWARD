@@ -17,7 +17,7 @@ This extension allows to add attribute support to Lot/Serial Number so that each
 * Search and allocate Lot/Serial Number by attribute value/s in Sales Order (SO301000) and Material (AM300000) Screens
 
 ### Prerequisites
-* [Acumatica 2023 R1 (23.104.0030 or higher)](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2023)
+* [Acumatica 2023 R1 (23.104.0030 or higher)](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2023R1)
 
 Quick Start
 -----------
