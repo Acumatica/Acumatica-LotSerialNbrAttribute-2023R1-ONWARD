@@ -14,7 +14,7 @@ This extension allows to add attribute support to Lot/Serial Number so that each
 * Assign description, detailed description, Sales Price, MSRP and E-Commerce settings at individual Lot/Serial Number (IN202501); values will be defaulted from Stock Item during receiving process
 * Bulk assignment of attribute values via Import Scenario
 * Access custom Web Services Endpoint (eCommerceLotSerial) exposing Lot/Serial Screen (IN202501)
-* Search and allocate Lot/Serial Number by attribute value/s in Sales Order (SO301000) and Material (AM300000) Screens
+* Search and allocate Lot/Serial Number by attribute value/s in Sales Order (SO301000), Material (AM300000), Service Orders (FS300100), Appointments (FS300200), Issues (IN302000), Adjustments (IN303000), Transfers (IN304000) Screens
 
 ### Prerequisites
 * Acumatica 2023 R1 (23.104.0030 or higher) [2023 R1 Deployment Package](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2023R1)
@@ -79,7 +79,7 @@ You need to execute below SQL Script. We recommend you to verify solution in San
 
 12. Lot/Serial Screen (IN202501) is available for REST API via custom Web Services Endpoint (eCommerceLotSerial)
 
-13. **Add Item Lot/Serial** option can be utilized to search Lot/Serial Number by attribute value and allocate in Sales Order (SO301000) and Material (AM300000) Screens. Columns for Attribute/s will be dynamically added.
+13. **Add Item Lot/Serial** option can be utilized to search Lot/Serial Number by attribute value and allocate in Sales Order (SO301000), Material (AM300000), Service Orders (FS300100), Appointments (FS300200), Issues (IN302000), Adjustments (IN303000), Transfers (IN304000) Screens. Columns for Attribute/s will be dynamically added in displayed dialog.
     
     <img src="/_ReadMeImages/Image5-SO301000-1.PNG">
     
