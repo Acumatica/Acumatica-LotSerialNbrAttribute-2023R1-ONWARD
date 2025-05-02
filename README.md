@@ -2,6 +2,24 @@
 
 Adding Attribute Support to Lot/Serial Number
 ==================================
+> [!IMPORTANT]
+> Starting version 25R1, Acumatica has introduced Lot/Serial Attributes as an experimental feature. This feature is <mark>currently available only for the Distribution Edition</mark>, replacing the need for this customization.
+> 
+> ### Distribution Edition
+> 
+> If you are a Distribution Edition customer currently using this customization, it is essential to contact your Acumatica support provider before proceeding with the upgrade. You will need to request a migration script to migrate your data from this 
+> customization to the standard product.
+>
+> Please refer to this detailed [Knowledge Base Article](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.acumatica.com%2Fhow-tos-and-faqs-240%2Fstarting-from-acumatica-erp-2025-r1-customers-who-use-the-lot-serial-customization-exclusively-within-the-distribution-module-should-migrate-to-the-out-of-the-box-lot-and-serial-attributes-for-stock-items-functionality-30063&data=05%7C02%7Cdchhapgar%40acumatica.com%7Cfedf25f3c3df431319b508dd83575c75%7C5ba58136c8e34f4b85797e49a2e3239c%7C0%7C0%7C638811133425986611%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=J0U9rDX8QvUCtvqJ0WTieJtQAHuZzDIN482Il9vkr%2F4%3D&reserved=0) on our community site describing the impacted releases and step-by-step actions that need to be taken to ensure a smooth transition from this customization to the standard 25R1 capability.
+>
+> ### Manufacturing, Field Service and Retail Editions
+> 
+> Acumatica 2025 R1 <mark>does not currently support</mark> the new Lot/Serial Attributes capability in Manufacturing, Field Services, and Retail Commerce. If you are using these editions and rely on this customization, please note that you <mark>must not 
+> enable</mark> this new feature at this time. Support for these editions will be available in subsequent releases. In the meantime, you can upgrade and continue to use this customization.
+
+- - - -
+- - - -
+
 Acumatica ERP lets you define attributes for flexible, meaningful classification of an Entity (Lead, Stock/Non-Stock Items Etc.) as required for your company's specific needs. An attribute is a property that enables you to specify additional information for Entity in the system. 
 
 This extension allows to add attribute support to Lot/Serial Number so that each Lot/Serial Number's unique characteristic (Example – color variation, stone pattern etc. in case of Granite Slab) can be tracked. With this extension, you can:
@@ -21,6 +39,7 @@ This extension allows to add attribute support to Lot/Serial Number so that each
 * Acumatica 2023 R2 (23.200.0136 or higher) [2023 R2 Deployment Package](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2023R2)
 * Acumatica 2024 R1 (24.100.0139 or higher) [2024 R1 Deployment Package](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2024R1)
 * Acumatica 2024 R2 (24.200.0118 or higher) [2024 R2 Deployment Package](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2024R2)
+* Acumatica 2025 R1 (25.100.0054 or higher) [2025 R1 Deployment Package](https://github.com/Acumatica/Acumatica-LotSerialNbrAttribute-2023R1-ONWARD/tree/2025R1)
 
 Quick Start
 -----------
@@ -51,7 +70,11 @@ You need to execute below SQL Script. We recommend you to verify solution in San
 
 1. Go to Attributes Screen (CS205000) and create new attributes if you need to. You can create attribute/s with numeric control types (Integer and Decimal) as well.
 
-   <img src="/_ReadMeImages/Image0-CS205000.png" width=60% height=60%>
+   | Before 25R1   | 25R1          |
+   | ------------- | ------------- |
+   | <img src="/_ReadMeImages/Image0-CS205000.png" width=60% height=60%> | <img src="/_ReadMeImages/Image0a-CS205000.png" width=60% height=60%> |
+
+   <mark>_Integer_ and _Decimal_ control types are represented as _Number_ control type in 25R1.</mark>
 
 2. Navigate to Lot/Serial classes Screen (IN207000) and select the class for which you need to specify list of Attributes.
 
