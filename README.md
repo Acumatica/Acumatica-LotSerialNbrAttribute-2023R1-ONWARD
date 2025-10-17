@@ -1,18 +1,32 @@
-[![Project Status](http://opensource.box.com/badges/active.svg)](http://opensource.box.com/badges)
+[![Project Status](https://opensource.box.com/badges/deprecated.svg)](http://opensource.box.com/badges)
 
 Adding Attribute Support to Lot/Serial Number
 ==================================
 > [!IMPORTANT]
+>
+> ### Acumatica 2025R2
+> Starting version 25R2, <mark>Lot/Serial Attributes feature is available as an experimental feature for all supported editions (distribution, manufacturing and Field Service) replacing the need for this customization.</mark>
+>
+> Please refer to this detailed [Knowledge Base Article for 25R2](https://community.acumatica.com/how-tos-and-faqs-248/how-to-migrate-to-the-out-of-the-box-lot-and-serial-attributes-for-stock-items-functionality-in-the-manufacturing-module-in-acumatica-erp-2025-r2-32810) on our community site describing the impacted releases and step-by-step actions that need to be taken to ensure a smooth transition from this customization to the standard 25R2 capability.
+>
+> You can submit an idea on [Acumatica Community](https://community.acumatica.com/ideas) should you need this feature for Retail Edition.
+>
+> <mark>This customization is deprecated and there will not be any update to this customization starting 2025R2.</mark>
+>
+> <mark>If you are using this customization for earlier version than 2025R2 - Assistance with setup, training, troubleshooting issues with this customization requires annual customization maintenance plan. Contact Acumatica customization team by submitting a [New Customization Request Case](https://portal.acumatica.com/Main?ScreenId=SP203006).</mark>
+> 
+> 
+> ### Acumatica 2025R1
 > Starting version 25R1, Acumatica has introduced Lot/Serial Attributes as an experimental feature. This feature is <mark>currently available only for the Distribution Edition</mark>, replacing the need for this customization.
 > 
-> ### Distribution Edition
+> ##### Distribution Edition
 > 
 > If you are a Distribution Edition customer currently using this customization, it is essential to contact your Acumatica support provider before proceeding with the upgrade. You will need to request a migration script to migrate your data from this 
 > customization to the standard product.
 >
-> Please refer to this detailed [Knowledge Base Article](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.acumatica.com%2Fhow-tos-and-faqs-240%2Fstarting-from-acumatica-erp-2025-r1-customers-who-use-the-lot-serial-customization-exclusively-within-the-distribution-module-should-migrate-to-the-out-of-the-box-lot-and-serial-attributes-for-stock-items-functionality-30063&data=05%7C02%7Cdchhapgar%40acumatica.com%7Cfedf25f3c3df431319b508dd83575c75%7C5ba58136c8e34f4b85797e49a2e3239c%7C0%7C0%7C638811133425986611%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=J0U9rDX8QvUCtvqJ0WTieJtQAHuZzDIN482Il9vkr%2F4%3D&reserved=0) on our community site describing the impacted releases and step-by-step actions that need to be taken to ensure a smooth transition from this customization to the standard 25R1 capability.
+> Please refer to this detailed [Knowledge Base Article for 25R1](https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.acumatica.com%2Fhow-tos-and-faqs-240%2Fstarting-from-acumatica-erp-2025-r1-customers-who-use-the-lot-serial-customization-exclusively-within-the-distribution-module-should-migrate-to-the-out-of-the-box-lot-and-serial-attributes-for-stock-items-functionality-30063&data=05%7C02%7Cdchhapgar%40acumatica.com%7Cfedf25f3c3df431319b508dd83575c75%7C5ba58136c8e34f4b85797e49a2e3239c%7C0%7C0%7C638811133425986611%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=J0U9rDX8QvUCtvqJ0WTieJtQAHuZzDIN482Il9vkr%2F4%3D&reserved=0) on our community site describing the impacted releases and step-by-step actions that need to be taken to ensure a smooth transition from this customization to the standard 25R1 capability.
 >
-> ### Manufacturing, Field Service and Retail Editions
+> ##### Manufacturing, Field Service and Retail Editions
 > 
 > Acumatica 2025 R1 <mark>does not currently support</mark> the new Lot/Serial Attributes capability in Manufacturing, Field Services, and Retail Commerce. If you are using these editions and rely on this customization, please note that you <mark>must not 
 > enable</mark> this new feature at this time. Support for these editions will be available in subsequent releases. In the meantime, you can upgrade and continue to use this customization.
